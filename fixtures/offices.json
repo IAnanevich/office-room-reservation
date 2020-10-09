@@ -1,0 +1,13 @@
+[
+  {
+    "model": "reservation.office",
+    "pk": 1,
+    "fields": {
+      "office_name": "Innowise Group",
+      "street": "Smolyachkova",
+      "house_number": 16,
+      "number_of_rooms": 7,
+      "photo_of_office": "innowise.jpeg"
+    }
+  }
+]

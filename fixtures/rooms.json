@@ -1,0 +1,92 @@
+[
+  {
+    "model": "reservation.room",
+    "pk": 1,
+    "fields": {
+      "id": 1,
+      "room_number": "1",
+      "number_seats": 3,
+      "name_office": 1
+    }
+  },
+  {
+    "model": "reservation.room",
+    "pk": 2,
+    "fields": {
+      "id": 2,
+      "room_number": "2",
+      "number_seats": 6,
+      "name_office": 1
+    }
+  },
+  {
+    "model": "reservation.room",
+    "pk": 3,
+    "fields": {
+      "id": 3,
+      "room_number": "3",
+      "number_seats": 2,
+      "name_office": 1
+    }
+  },
+  {
+    "model": "reservation.room",
+    "pk": 4,
+    "fields": {
+      "id": 4,
+      "room_number": "4",
+      "number_seats": 1,
+      "name_office": 1
+    }
+  },
+  {
+    "model": "reservation.room",
+    "pk": 5,
+    "fields": {
+      "id": 5,
+      "room_number": "5",
+      "number_seats": 18,
+      "name_office": 1
+    }
+  },
+  {
+    "model": "reservation.room",
+    "pk": 6,
+    "fields": {
+      "id": 6,
+      "room_number": "6",
+      "number_seats": 12,
+      "name_office": 1
+    }
+  },
+  {
+    "model": "reservation.room",
+    "pk": 7,
+    "fields": {
+      "id": 7,
+      "room_number": "7",
+      "number_seats": 14,
+      "name_office": 1
+    }
+  },
+    {
+    "model": "reservation.room",
+    "pk": 8,
+    "fields": {
+      "id": 8,
+      "room_number": "8",
+      "number_seats": 5,
+      "name_office": 1
+    }
+  },
+    {
+    "model": "reservation.room",
+    "pk": 9,
+    "fields": {
+      "id": 9,
+      "room_number": "9",
+      "number_seats": 7,
+      "name_office": 1
+    }
+  }
+]
