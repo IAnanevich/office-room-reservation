@@ -9,7 +9,7 @@ class OfficeSerializer(serializers.ModelSerializer):
 
 
 class RoomSerializer(serializers.ModelSerializer):
-    name_office = serializers.CharField(source='name_office.office_name')
+    name_office = serializers.CharField(source="name_office.office_name")
 
     class Meta:
         model = Room
@@ -19,4 +19,12 @@ class RoomSerializer(serializers.ModelSerializer):
 class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Employee
-        fields = ("first_name", "last_name", "email", "room_number", "date_from", "date_to", "url")
+        fields = (
+            "first_name",
+            "last_name",
+            "email",
+            "room_number",
+            "date_from",
+            "date_to",
+            "url",
+        )

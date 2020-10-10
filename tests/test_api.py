@@ -12,20 +12,14 @@ class ApiTest(APITestCase):
             street="street",
             house_number=1,
             number_of_rooms=1,
-            photo_of_office=SimpleUploadedFile(name='innowise.jpeg', content=open('media/innowise.jpeg', 'rb').read()),
+            photo_of_office=SimpleUploadedFile(
+                name="innowise.jpeg", content=open("media/innowise.jpeg", "rb").read()
+            ),
         )
 
-        room1 = Room.objects.create(
-            room_number=1,
-            number_seats=1,
-            name_office=office
-        )
+        room1 = Room.objects.create(room_number=1, number_seats=1, name_office=office)
 
-        room2 = Room.objects.create(
-            room_number=2,
-            number_seats=1,
-            name_office=office
-        )
+        room2 = Room.objects.create(room_number=2, number_seats=1, name_office=office)
 
         Employee.objects.create(
             first_name="First name 1",
